@@ -1,4 +1,4 @@
 package factorymathodpattern;
 
-public class CartPage extends Page{
+public class CartPage extends Page {
 }

@@ -29,6 +29,7 @@ public class BuilderExample {
     public String getMeat() {
         return meat;
     }
+
     // inner class
     public static class Builder {
         private String bread;
@@ -37,25 +38,26 @@ public class BuilderExample {
         private String meat;
 
 
-        public BuilderExample build(){
+        public BuilderExample build() {
             return new BuilderExample(this);
         }
-        public Builder bread(String bread){
+
+        public Builder bread(String bread) {
             this.bread = bread;
             return this; // returns the Builder object
         }
 
-        public Builder condiments(String condiments){
+        public Builder condiments(String condiments) {
             this.condiments = condiments;
             return this; // returns the Builder object
         }
 
-        public Builder dressing(String dressing){
+        public Builder dressing(String dressing) {
             this.dressing = dressing;
             return this; // returns the Builder object
         }
 
-        public Builder meat(String meat){
+        public Builder meat(String meat) {
             this.meat = meat;
             return this; // returns the Builder object
         }

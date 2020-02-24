@@ -1,10 +1,8 @@
 package builderpattern;
 
-import java.util.Calendar;
-
 public class BuilderDemo {
     public static void main(String[] args) {
-      //  BuilderExample.Builder order = new BuilderExample.Builder();
+        //  BuilderExample.Builder order = new BuilderExample.Builder();
 
         BuilderExample.Builder order = new BuilderExample.Builder();
         order.bread("sd").dressing("sd");

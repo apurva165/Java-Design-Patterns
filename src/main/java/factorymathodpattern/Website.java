@@ -3,7 +3,7 @@ package factorymathodpattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public  abstract class Website {
+public abstract class Website {
     protected List<Page> pages = new ArrayList<Page>();
 
     public Website() {

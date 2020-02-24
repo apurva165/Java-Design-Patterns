@@ -1,4 +1,4 @@
 package factorymathodpattern;
 
-public class PostPage extends Page{
+public class PostPage extends Page {
 }
